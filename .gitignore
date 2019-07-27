@@ -1,0 +1,15 @@
+.idea/
+.ipynb_checkpoints
+leary.iml
+.nfs*
+out/
+._*
+*.swp
+.DS_Store
+CMakeLists.txt
+cmake-build-debug/
+GoogleNews-vectors-negative300.bin
+GoogleNews-vectors-negative300.bin.gz
+__pycache__
+brown.zip
+src/build_traits_database/TraitDao.py
