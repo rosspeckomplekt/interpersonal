@@ -15,6 +15,7 @@
 - [Homepage](https://waifuai.com/interpersonal) Homepage for `interpersonal`
 - [Documentation](https://waifuai.github.io/interpersonal/) Documentation of `interpersonal`, hosted on a website.
 - [Jupyter Notebook demo](./demo.ipynb) Demonstration of module usage
+- [Kaggle datasets](https://www.kaggle.com/waifuai/interpersonal-traits) Larger (up to 96MB) precomputed traits databases.
 
 
 ## Status
@@ -61,6 +62,8 @@ It downloads the Google News vectors file (1.57GB, and runs the `populate_traits
  
 
 ### Generating a Custom Traits Database File
+
+[Kaggle datasets](https://www.kaggle.com/waifuai/interpersonal-traits) has larger (up to 96MB) precomputed traits databases.
 
 The main setup script, `src/setup_main.sh` downloads our custom-built traits database file. This file is built using the specifications that are specified in the `src/build_traits_database/populate_traits.py` Python script. 
 These specifications were chosen carefully in order to optimize the balance of having enough traits, and still not having traits added to the database that are irrelevant. However, if you wish, you can modify these specifications in your own projects. For example, you could change the limit on line 20 of how many words should be looked up from GoogleNews vector. You could also change the various topn values, or the words to describe the positive and negative of each trait.
