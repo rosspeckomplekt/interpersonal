@@ -12,6 +12,7 @@
 
 ## Documentation
 
+- [Paper](https://github.com/waifuai/interpersonal/releases/download/0.1/interpersonal.pdf) In-depth explanation of `interpersonal` with lots of images
 - [Homepage](https://waifuai.com/interpersonal) Homepage for `interpersonal`
 - [Documentation](https://waifuai.github.io/interpersonal/) Documentation of `interpersonal`, hosted on a website.
 - [Jupyter Notebook demo](./demo.ipynb) Demonstration of module usage
@@ -20,8 +21,7 @@
 
 ## Status
 
-We are are actively looking for feedback. If you have any ideas or suggestions open an issue.
-We are currently working on rebuilding interpersonal using a more generalized approach using neural networks, and experimenting between using LSTMs versus Deep Reinforment Learning with PPO (proximal policy optimization, since it is an embedding in continuous space).
+We are are actively looking for feedback. Do open an issue if you have any ideas or suggestions.
 
 ## Purpose
 
