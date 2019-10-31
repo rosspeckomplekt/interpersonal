@@ -12,14 +12,21 @@
 
 ## Documentation
 
-- [Paper](https://github.com/waifuai/interpersonal/releases/download/0.1/interpersonal.pdf) In-depth explanation of `interpersonal` with lots of images
-- [Homepage](https://waifuai.com/interpersonal) Homepage for `interpersonal`
-- [Documentation](https://waifuai.github.io/interpersonal/) Documentation of `interpersonal`, hosted on a website.
-- [Jupyter Notebook demo](./demo.ipynb) Demonstration of module usage
+- [GitHub](https://github.com/waifuai/interpersonal) Repository for the project.
+- [Paper](https://github.com/waifuai/papers/blob/master/interpersonal.pdf) In-depth explanation with lots of images.
+- [Documentation](https://waifuai.github.io/interpersonal/) Interactive website with images explaining core concepts.
+- [Demo](./demo.ipynb) Demonstration of module usage in a Jupyter Notebook.
 - [Kaggle datasets](https://www.kaggle.com/waifuai/interpersonal-traits) Larger (up to 96MB) precomputed traits databases.
+- [Pip package](https://pypi.org/project/interpersonal/) Listing on the Python Package Index. 
+- [Homepage](https://waifuai.com/interpersonal) Single page website advertising core capabilities.
 
 
-## Status
+
+## Usage
+
+`pip install interpersonal` - Installs `interpersonal` but does not do anything yet.
+
+See the Jupyter Notebook [demo](./demo.ipynb) for working example usage.
 
 We are are actively looking for feedback. Do open an issue if you have any ideas or suggestions.
 
